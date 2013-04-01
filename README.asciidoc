@@ -1,0 +1,20 @@
+    _                _              _             _
+   / `_ _/|_/|_  _  /_`_  _._ _/_  /_`_/__  _ _  / `_  //
+  /_,/_//  / /_'/_'._//_ ///_//   ._/ / /_'/ / //_,/_'//
+                          /
+
+**CoffeeScript StemCell** provides a basic static site with CoffeeScript and
+Stylus. Testing is provided by Jasmine. Grunt manages all the tasks.
+
+== Now What?
+
+`grunt watch`:: compiles your CoffeeScript and Stylus and runs your Jasmine
+specs on the fly.
+
+`grunt coffee`:: compiles CoffeeScript files in `coffee/lib/` into `app/lib.js`
+and `coffee/js/app.coffee` into `app/js/app.js`.
+
+`grunt stylus`:: compiles `stylus/app.styl` into `app/css/app.css`.
+
+`grunt spec`:: compiles your CoffeeScript files in `coffee/lib/` and run their
+specs in `spec/lib/`

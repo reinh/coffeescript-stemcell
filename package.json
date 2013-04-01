@@ -1,0 +1,15 @@
+{
+  "name": "coffee-stemcell",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-watch": "0.3.x",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-coffee": "latest",
+    "grunt-coffeelint": "0.0.x",
+    "grunt-contrib-stylus": "~0.4.1",
+    "grunt-contrib-jasmine": "latest",
+    "phantomjs" : "1.8.2-0"
+  }
+}
